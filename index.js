@@ -1,3 +1,4 @@
+
 /*ZADANI 1. */
 const ellipseArea = (width, height) => {
   return (width / 2) * (height / 2) * Math.PI
@@ -18,3 +19,13 @@ const max2 = (cislo1, cislo2) => {
 }
 
 console.log(max2(2, 5))
+
+/*
+const max2 = (a, b) => {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+};
+*/
